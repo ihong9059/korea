@@ -1,0 +1,18 @@
+2022.08.03
+* unicast process 추가
+
+
+2022.08.21
+* zmq connect
+    tcpClient.py modified: PORT = 8888 -> PORT = 9999 
+    
+    uttec_zmq.py added
+    zmq_socket.py added
+    zmq_ini.py added 
+
+    pip3 install zmq 
+    for test: run_server.py added 
+
+    change in raspberry
+    server port 8888 -> 9999
+

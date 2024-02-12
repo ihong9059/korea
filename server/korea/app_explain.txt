@@ -1,0 +1,24 @@
+bike.py 
+    정산기 emulator와 연동 test 
+    실제 field 적용:
+        autostart
+
+bike_ctr.py:
+    수동에 의한 Rack Control
+    run node-red
+    tcpClient.py
+        testHost = '127.0.0.1'
+        testPort = 2222 
+
+bike_noRS422.py:
+    battery Test용 
+    remote Server
+        run node-red 
+    
+    tcpClient.py
+        testHost = '1.234.23.229'
+        testPort = 30000
+
+testRackDriver.py 
+    RackDriver Hardware test용 
+    

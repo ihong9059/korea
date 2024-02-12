@@ -1,0 +1,30 @@
+2023.09.10
+
+humidity: 
+    aht20: 0x38 temperature 
+    hts221: 0x5F temperature 
+
+luminary sensor
+    bh1750: 0x23
+    bh1745: 0x39 (aht20: 0x38)
+
+pressure:
+    bmp280: 0x77 temperature
+    lps22hb: 0x5C
+
+co2:
+    ccs811: 0x5A temperature 
+
+eeprom:
+    nordic: 0x50
+
+lcd display:
+    ssd1306: 0x3C
+
+exteder:
+    sx1509: 0x3E
+
+accelerator:
+
+zyro:
+
